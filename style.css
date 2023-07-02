@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+    /* overflow: auto; */
+    list-style: none;
+    text-decoration: none !important;
+}
+header{
+    height: 85px;
+}
+body{
+    background-color: black;
+    min-height:100vh;
+}
+.container{
+    width: 69% !important;
+}
+.content img{
+    width: 100%;
+}
+.col-8 .row .col-4 img{
+    height: 55px;
+}
+.uyegiris , footer, .formrenk{
+    background-color: #111111;
+}
+footer{
+    margin-top: 90px;
+}
+.cizgisari{
+    width: 224px;
+    height: 4px;
+   
+    margin: auto;
+}
+
+@media screen and (max-width:768px) {
+    header{
+        height:180px ;
+    }
+    .uye{
+        display: block !important;
+    }
+    
+}
